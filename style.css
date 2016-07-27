@@ -1,0 +1,101 @@
+@import url(reset.css);
+body{
+  font: 12px/1.6 Arial, Verdna, sans-serif;
+  color:#0c0c0c;
+}
+.title{
+  width: 95%;
+  margin: 30px;
+}
+header{
+padding-bottom: 42px;
+border-bottom: 1px solid #c0c0c0;
+}
+.social ul li{
+  float: left;
+  margin-right: 6px;
+}
+.form{
+  float: right;
+}
+.search{
+  background:#c0c0c0;
+}
+.kv{
+  margin: 5px;
+  float: left;
+}
+h1{
+  font: 22px/1.6 Arial, Verdna, sans-serif;
+
+}
+h2{
+  margin: 15px 0;
+  font-weight: bold;
+}
+.content{
+  overflow: hidden;
+  width: 95%;
+  margin: 30px;
+}
+.left{
+  width: 73%;
+  float: left;
+}
+.left p{
+  padding: 15px 0px;
+}
+ .shadow{
+   font-weight: bold;
+   padding: 5px;
+   margin: 30px;
+   width: 80%;
+   background:#dedede;
+   box-shadow: -5px 0 5px 2px rgba(0,0,0,0.6);
+ }
+ table{
+   width: 100%;
+ }
+ th{
+   background: #c0c0c0;
+   padding: 5px;
+
+ }
+ th ,td{
+   border: 1px solid #c0c0c0;
+ }
+ ul{margin: 20px;}
+.right{
+  margin-right: 30px;
+  width: 20%;
+  float: right;
+}
+.box1{
+  margin: 20px 0;
+  max-width: 100%;
+  height:200px;
+  background: url("imeges aweb/bgr.png") center no-repeat;
+}
+.text{
+  padding: 30px;
+  font-style: italic;
+
+}
+@media screen and (min-width:1290px){
+  .content{width: 60%; margin: 0 auto;}
+  .title{width: 60%;  margin: 0 auto;}
+}
+@media screen and (max-width:850px) {
+  .left{width: 60%;}
+  .right{width: 35%;}
+}
+@media screen and (max-width:380px){
+.right{float:left;}
+.left{width: 90%;}
+.right{width: 90%;}
+h1{
+  font: 18px/1.6 Arial, Verdna, sans-serif;}
+.content{margin: 15px;width: 90%}
+.form{float: left;}
+.title{margin: 15px;width: 90%}
+}
