@@ -85,6 +85,10 @@ h2{
   .content{width: 60%; margin: 0 auto;}
   .title{width: 60%;  margin: 0 auto;}
 }
+@media screen and (max-width:990px) {
+  .left{width: 65%;}
+  .right{width: 25%;}
+}
 @media screen and (max-width:850px) {
   .left{width: 60%;}
   .right{width: 35%;}
